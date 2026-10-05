@@ -62,9 +62,9 @@ The table below lists key commercial developer browsers and official preview cha
 
 ## 🔓 Open-Source GitHub Projects
 
-Below is a curated list of top open-source developer browsers, independent engines, and tools, sorted by **GitHub Star Count** (descending).
+Below is a curated list of top open-source developer browsers, independent engines, and tools, sorted by **GitHub Stars_Count** (descending).
 
-| Project / Repository 📦 | Star Count ⭐ | License 📜 | Description & Highlights ⚡ |
+| Project / Repository 📦 | Stars_Count ⭐ | License 📜 | Description & Highlights ⚡ |
 | :--- | :--- | :--- | :--- |
 | **[Chromium](https://chromium.googlesource.com/chromium/src.git)** 🌐 | [![Stars](https://img.shields.io/github/stars/chromium/chromium?style=social&color=white)](https://github.com/chromium/chromium/stargazers) | BSD-3-Clause | The open-source browser foundation powering Chrome, Edge, Brave, and Vivaldi. Direct source for Chrome DevTools. |
 | **[Responsively App](https://github.com/responsively-org/responsively-app)** 📱 | [![Stars](https://img.shields.io/github/stars/responsively-org/responsively-app?style=social&color=white)](https://github.com/responsively-org/responsively-app/stargazers) | AGPL-3.0 | **#1 Open-source responsive browser** with 23k+ stars. Features synchronized scrolling, device presets, and quick screenshot tools. |
@@ -105,7 +105,7 @@ Thank you for visiting and supporting this project! If you find this developer b
 
 1. 🍴 **Fork** this repository.
 2. 📝 **Add/edit** entries in `README.md` following the formatted table layout.
-3. ⚡ Ensure descriptions are concise, factual, and include relevant links & star badges.
+3. ⚡ Ensure descriptions are concise, factual, and include relevant links & Stars_Badges.
 4. 🚀 **Submit a Pull Request** with a clear explanation of your additions!
 
 ---
