@@ -1,235 +1,129 @@
-# Awesome-Web-Browser-Developer
+<p align="center">
+  <img src="./assets/banner.svg" alt="Awesome Web Browser Developer Banner" width="100%">
+</p>
 
-## Top Web Browser (Developer) Ecosystem
+# 🌐 Awesome Web Browser Developer 🚀
 
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+<a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+[![Awesome](https://awesome.re/badge.svg)](https://github.com/ishandutta2007/Awesome-Web-Browser-Developer)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
+<a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
+## 📌 Top Web Browser (Developer) Ecosystem & Tools
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**
-
-*Focused on Cross-Browser Testing, DevTools & Responsive Design Workflows*
-
-**Last updated: October 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Developer Browsers**. These tools provide advanced DevTools, cross-browser previewing, responsive design testing, and debugging capabilities that go beyond what standard consumer browsers offer.
-
-
-
-**Examples** include Microsoft Edge Dev, Google Chrome Canary, Firefox Developer Edition, Safari Technology Preview, Brave Nightly, Opera Developer, Vivaldi Snapshot, Polypane, Responsively App, and Chromium (the category leaders).
-
-
-
-**Open-source emphasis**: Developer browsers are where open-source shines brightest. **Chromium**, **Firefox Developer Edition**, **Responsively App**, and **Sizzy** collectively power web development workflows worldwide, with **Responsively App** emerging as the most popular open-source alternative to Polypane for responsive design testing.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[Microsoft Edge Dev](https://www.microsoftedgeinsider.com/)**  
-
-  Weekly preview channel with upcoming Edge features. **Includes experimental DevTools features** before they reach Stable. Side-by-side installation. Best for testing against future Edge behavior.
-
-
-
-- **[Google Chrome Canary](https://www.google.com/chrome/canary/)**  
-
-  Daily build of Chrome with the latest DevTools experiments. **The earliest access to Chrome DevTools features** and web platform changes. Unstable by design — not for daily browsing.
-
-
-
-- **[Firefox Developer Edition](https://www.mozilla.org/firefox/developer/)**  
-
-  **Built on Firefox Beta with unique DevTools experiments.** Features land here ~12 weeks before Stable. Includes experimental DevTools not available in Nightly or Beta. **The recommended Firefox preview channel for web developers.**
-
-
-
-- **[Safari Technology Preview](https://developer.apple.com/safari/technology-preview/)**  
-
-  Standalone Safari build giving early access to WebKit features coming to Safari. **The only way to preview Safari changes before release.** Requires macOS.
-
-
-
-- **[Brave Nightly](https://brave.com/download-nightly/)**  
-
-  Brave's most cutting-edge channel, updated daily. Includes features that may never ship. **For developers testing Brave-specific behavior.**
-
-
-
-- **[Opera Developer](https://www.opera.com/developer)**  
-
-  Opera's most bleeding-edge channel with upcoming features and DevTools changes.
-
-
-
-- **[Vivaldi Snapshot](https://vivaldi.com/blog/snapshots/)**  
-
-  Pre-release build of Vivaldi with experimental UI and DevTools. **Installable side-by-side with stable Vivaldi.**
-
-
-
-- **[Polypane](https://polypane.app/)**  
-
-  **Commercial browser built specifically for developers.** Shows your site in multiple viewports simultaneously, with synchronized scrolling and clicking. Features accessibility auditing, contrast checking, and meta tag inspection. **The gold standard for responsive design testing** — paid, with free trial.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[Chromium](https://chromium.googlesource.com/chromium/src.git)**  
-
-  The open-source foundation of Chrome, Edge, Brave, and dozens of other browsers. BSD-style licensed. **Building from source** is possible but requires significant C++ expertise. Chromium snapshots provide the rawest browser preview — **no proprietary services, no branding**. **The most important open-source browser codebase** and the upstream for DevTools that flow to Chrome and Edge.
-
-
-
-- **[Firefox Developer Edition](https://github.com/mozilla/gecko-dev)**  
-
-  Open-source (MPL 2.0) developer-focused Firefox build with **experimental DevTools not in other channels** . Features land here ~12 weeks before Stable. **The best open-source browser for web developers** — includes unique tools for CSS Grid, Flexbox, and accessibility debugging. Available on Windows, macOS, and Linux.
-
-
-
-- **[Responsively App](https://github.com/responsively-org/responsively-app)**  
-
-  **The leading open-source browser for responsive design testing** with 23,000+ GitHub stars and AGPL-3.0 license . Shows your site in multiple device viewports simultaneously with synchronized scrolling and clicking. Features device profiles, screenshot capture, hot-reload integration, and DevTools for each viewport. **The de facto open-source alternative to Polypane** — actively maintained and free.
-
-
-
-- **[Sizzy](https://github.com/kitze/sizzy)**  
-
-  Open-source browser for testing responsive designs across multiple devices simultaneously. **Lightweight alternative to Polypane and Responsively** with a focus on simplicity. Supports custom device presets and synchronized navigation.
-
-
-
-- **[Blisk](https://github.com/blisk-io/blisk)**  
-
-  **Developer browser with built-in testing tools** — open-source (Chromium-based) with paid tiers for advanced features. Includes device emulation, screenshot capture, and page speed monitoring. **Free tier available for individual developers.**
-
-
-
-- **[ungoogled-chromium](https://github.com/ungoogled-software/ungoogled-chromium)**  
-
-  Chromium fork that **removes all Google integration**, background communications, and non-free binaries . Privacy-focused patches while maintaining DevTools compatibility. **For developers who want Chromium DevTools without Google's data collection.**
-
-
-
-- **[Brave (Core)](https://github.com/brave/brave-core)**  
-
-  Open-source foundation of Brave, built on Chromium. MPL 2.0 licensed. **Includes Brave's DevTools customizations** and privacy-focused development features.
-
-
-
-- **[WebKit](https://github.com/WebKit/WebKit)**  
-
-  The open-source web engine powering Safari and all iOS browsers. BSD/LGPL licensed. **WebKit Nightly builds** give developers access to the latest engine features and DevTools changes. **The only way to test against Safari's engine on non-Apple hardware** (via WebKitGTK or WPE).
-
-
-
-- **[Epiphany (GNOME Web)](https://github.com/GNOME/epiphany)**  
-
-  WebKitGTK-based browser for GNOME with **built-in developer tools**. Lightweight and Linux-native. **Good for testing WebKit rendering on Linux.**
-
-
-
-- **[Falkon](https://github.com/KDE/falkon)**  
-
-  QtWebEngine-based browser with **integrated DevTools** (Chromium DevTools via QtWebEngine). KDE-native with a lightweight footprint. **Useful for testing QtWebEngine-based applications.**
-
-
-
-### The Future: Independent Developer Tools
-
-
-
-- **[Servo](https://github.com/servo/servo)**  
-
-  Independent Rust-based web engine under Linux Foundation Europe . **Nightly builds available for testing** — achieved 92% WPT subtest pass rate as of 2025 . **Not yet production-ready** but the most promising independent engine for developers wanting to contribute to browser diversity.
-
-
-
-- **[Ladybird](https://github.com/LadybirdBrowser/ladybird)**  
-
-  **Truly independent browser** built from scratch with its own engine and **separate DevTools implementation** . Pre-alpha state — only for developers. Funded by Ladybird Browser Initiative (501(c)(3)) . **The most ambitious independent browser project** with its own Inspector for debugging.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **Responsively App** — Most popular open-source responsive design browser (23K+ stars) with multi-viewport synchronized testing .
-
-- **Sizzy** — Lightweight open-source responsive testing browser with device presets .
-
-- **Blisk** — Open-source developer browser with built-in testing tools and free tier .
-
-- **Firefox Developer Tools** — Open-source DevTools suite available in Firefox Developer Edition with CSS Grid, Flexbox, and accessibility inspectors .
-
-- **Chrome DevTools Protocol (CDP)** — Open protocol for programmatic browser control, used by Puppeteer, Playwright, and countless testing tools .
-
-
-
-**Frameworks for building custom developer browser solutions**: Combine **Chromium** for the foundation of any custom browser, with **Firefox Developer Edition** for Gecko-based development and unique DevTools experiments . Use **Responsively App** or **Sizzy** for responsive design testing without commercial licenses. **Polypane** remains the most feature-complete commercial option, but Responsively App covers 90% of use cases for free . For automation and testing, **Chrome DevTools Protocol** enables programmatic control of any Chromium-based browser . For engine diversity, **Servo** and **Ladybird** are the only viable long-term open-source projects — both need contributors .
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- **Developer browsers are preview channels** — they may be unstable, crash, or lose data. **Never use them as your primary browser** for critical work.
-
-- **Preview builds may have security vulnerabilities** fixed before Stable. Do not use them for sensitive browsing without understanding the risks.
-
-- **Polypane is commercial** — Responsively App and Sizzy are the leading open-source alternatives with comparable feature sets for most use cases.
-
-- **Servo and Ladybird are not production-ready** and are intended for developers and contributors only.
-
-
+> **A curated directory of SaaS platforms, open-source developer browsers, cross-browser testing tools, DevTools extensions, and responsive design preview workflows.**
 
 ---
 
+### 💡 What are Developer Browsers?
 
+**Developer Browsers** and preview channels provide specialized capabilities beyond consumer browsers—including multi-viewport synchronized testing, custom inspect options, experimental DevTools features, CSS Grid/Flexbox inspectors, accessibility auditing, and standalone WebKit/Gecko/Chromium runtime preview environments.
 
-**Made for web developers, frontend engineers, and browser tooling enthusiasts.**
+*Last updated: October 2026*
 
-Let's make developer browsers more open, transparent, and capable.
+---
+
+## 🗂️ Table of Contents
+
+- [📊 Sector Market Overview](#-sector-market-overview)
+- [💼 SaaS & Hosted Developer Browser Platforms](#-saas--hosted-developer-browser-platforms)
+- [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🛠️ Automation & Developer Tools Protocols](#️-automation--developer-tools-protocols)
+- [💖 Support & Community](#-support--community)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [⚠️ Disclaimer](#️-disclaimer)
+- [⭐ Star History](#-star-history)
+
+---
+
+## 📊 Sector Market Overview
+
+> **Market Size & Structure:** The global browser testing and web developer tooling market is estimated at **$3.5B+ (2026)** and is **highly concentrated (winner-take-all dynamics)** around tech giants (Microsoft, Google, Apple) for core browser engines and preview channels, with specialized niche sub-sectors (responsive design & multi-viewport testing) showing moderate fragmentation among commercial indie SaaS tools and open-source alternatives.
+
+---
+
+## 💼 SaaS & Hosted Developer Browser Platforms
+
+The table below lists key commercial developer browsers and official preview channels, sorted by **estimated company size (valuation / annual revenue)** in descending order.
+
+| Platform | Company Size (Rev / Valuation) 📈 | Pricing 💰 | Free Tier / Trial Limit 🎁 | Key Features & Focus 🛠️ |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Microsoft Edge Dev](https://www.microsoftedgeinsider.com/)** 🟦 | **~$245B+ Rev** (Microsoft Corp) | **$0.00 / month** (Free) | **Unlimited Free Plan** (No caps, full access) | Weekly preview channel with experimental Edge DevTools features before stable release. |
+| **[Google Chrome Canary](https://www.google.com/chrome/canary/)** 🟡 | **~$307B+ Rev** (Alphabet Inc) | **$0.00 / month** (Free) | **Unlimited Free Plan** (No caps, daily raw builds) | Daily bleeding-edge build of Chrome with early access to Chrome DevTools & web platform APIs. |
+| **[Safari Technology Preview](https://developer.apple.com/safari/technology-preview/)** 🍎 | **~$383B+ Rev** (Apple Inc) | **$0.00 / month** (Free) | **Unlimited Free Plan** (Requires macOS) | Standalone Safari build to preview upcoming WebKit features and Safari Inspect tools. |
+| **[Brave Nightly](https://brave.com/download-nightly/)** 🦁 | **~$100M+ Rev** / **~$500M Val** | **$0.00 / month** (Free) | **Unlimited Free Plan** (Daily experimental builds) | Cutting-edge channel of Brave Browser for testing privacy features & custom shields DevTools. |
+| **[Opera Developer](https://www.opera.com/developer)** 🔴 | **~$400M+ Rev** (Opera Limited) | **$0.00 / month** (Free) | **Unlimited Free Plan** (Developer preview build) | Opera preview channel with experimental desktop UI and integrated sidebar developer features. |
+| **[Vivaldi Snapshot](https://vivaldi.com/blog/snapshots/)** 🎨 | **~$15M+ Rev** (Vivaldi Technologies) | **$0.00 / month** (Free) | **Unlimited Free Plan** (Side-by-side install) | Pre-release builds of Vivaldi with customizable web panels and advanced DevTools integration. |
+| **[Polypane](https://polypane.app/)** 📐 | **~$1M–$5M Bootstrapped** | **$9.00 / month** ($108/yr or $11/mo solo) | **14-Day Free Trial** (Full access, no credit card required) | Commercial browser built specifically for responsive web design, multi-viewport sync & accessibility. |
+
+---
+
+## 🔓 Open-Source GitHub Projects
+
+Below is a curated list of top open-source developer browsers, independent engines, and tools, sorted by **GitHub Star Count** (descending).
+
+| Project / Repository 📦 | Star Count ⭐ | License 📜 | Description & Highlights ⚡ |
+| :--- | :--- | :--- | :--- |
+| **[Chromium](https://chromium.googlesource.com/chromium/src.git)** 🌐 | [![Stars](https://img.shields.io/github/stars/chromium/chromium?style=social&color=white)](https://github.com/chromium/chromium/stargazers) | BSD-3-Clause | The open-source browser foundation powering Chrome, Edge, Brave, and Vivaldi. Direct source for Chrome DevTools. |
+| **[Responsively App](https://github.com/responsively-org/responsively-app)** 📱 | [![Stars](https://img.shields.io/github/stars/responsively-org/responsively-app?style=social&color=white)](https://github.com/responsively-org/responsively-app/stargazers) | AGPL-3.0 | **#1 Open-source responsive browser** with 23k+ stars. Features synchronized scrolling, device presets, and quick screenshot tools. |
+| **[Ladybird](https://github.com/LadybirdBrowser/ladybird)** 🐞 | [![Stars](https://img.shields.io/github/stars/LadybirdBrowser/ladybird?style=social&color=white)](https://github.com/LadybirdBrowser/ladybird/stargazers) | BSD-2-Clause | Truly independent web browser & C++ engine built from scratch with custom Inspector & DevTools implementation. |
+| **[ungoogled-chromium](https://github.com/ungoogled-software/ungoogled-chromium)** 🔒 | [![Stars](https://img.shields.io/github/stars/ungoogled-software/ungoogled-chromium?style=social&color=white)](https://github.com/ungoogled-software/ungoogled-chromium/stargazers) | BSD-3-Clause | Privacy-focused Chromium variant with all Google web services, background requests, and telemetry disabled. |
+| **[Servo](https://github.com/servo/servo)** 🦀 | [![Stars](https://img.shields.io/github/stars/servo/servo?style=social&color=white)](https://github.com/servo/servo/stargazers) | MPL-2.0 | Independent parallel web engine written in Rust under Linux Foundation Europe, providing lightweight rendering capabilities. |
+| **[WebKit](https://github.com/WebKit/WebKit)** 🧩 | [![Stars](https://img.shields.io/github/stars/WebKit/WebKit?style=social&color=white)](https://github.com/WebKit/WebKit/stargazers) | BSD / LGPL | Open-source rendering engine for Safari and iOS browsers. WebKitGTK/WPE enables testing WebKit on Linux. |
+| **[Brave Core](https://github.com/brave/brave-core)** 🦁 | [![Stars](https://img.shields.io/github/stars/brave/brave-core?style=social&color=white)](https://github.com/brave/brave-core/stargazers) | MPL-2.0 | Open-source C++ core for Brave Browser, featuring custom privacy protection mechanisms and DevTools extensions. |
+| **[Sizzy](https://github.com/kitze/sizzy)** 📐 | [![Stars](https://img.shields.io/github/stars/kitze/sizzy?style=social&color=white)](https://github.com/kitze/sizzy/stargazers) | MIT / Proprietary | Lightweight browser tool designed for fast responsive testing and side-by-side device viewports. |
+| **[Firefox Gecko](https://github.com/mozilla/gecko-dev)** 🦊 | [![Stars](https://img.shields.io/github/stars/mozilla/gecko-dev?style=social&color=white)](https://github.com/mozilla/gecko-dev/stargazers) | MPL-2.0 | Codebase powering Firefox & Firefox Developer Edition with CSS Grid, Flexbox, and accessibility inspectors. |
+| **[Epiphany (GNOME Web)](https://github.com/GNOME/epiphany)** 🐧 | [![Stars](https://img.shields.io/github/stars/GNOME/epiphany?style=social&color=white)](https://github.com/GNOME/epiphany/stargazers) | GPL-3.0 | GNOME desktop native browser built on WebKitGTK with built-in developer tools for WebKit inspection on Linux. |
+| **[Min Browser](https://github.com/minbrowser/min)** ⚡ | [![Stars](https://img.shields.io/github/stars/minbrowser/min?style=social&color=white)](https://github.com/minbrowser/min/stargazers) | Apache-2.0 | Minimalist open-source browser built with Electron and HTML/JS, featuring built-in ad blocking and DevTools support. |
+| **[Browser UI (Beaker / Dat)](https://github.com/beakerbrowser/beaker)** 🧪 | [![Stars](https://img.shields.io/github/stars/beakerbrowser/beaker?style=social&color=white)](https://github.com/beakerbrowser/beaker/stargazers) | MIT | Experimental peer-to-peer browser for Web3 and website authoring with integrated site builder tools. |
+| **[Blisk](https://github.com/blisk-io/blisk)** 🛠️ | [![Stars](https://img.shields.io/github/stars/blisk-io/blisk?style=social&color=white)](https://github.com/blisk-io/blisk/stargazers) | Proprietary / OSS | Developer browser dedicated to test execution, device emulation, URL synchronization, and error monitoring. |
+| **[Falkon](https://github.com/KDE/falkon)** 🦅 | [![Stars](https://img.shields.io/github/stars/KDE/falkon?style=social&color=white)](https://github.com/KDE/falkon/stargazers) | GPL-3.0 | KDE QtWebEngine browser with integrated Chromium DevTools, ideal for lightweight testing on Linux environments. |
+
+---
+
+## 🛠️ Automation & Developer Tools Protocols
+
+- 🌐 **[Chrome DevTools Protocol (CDP)](https://chromedevtools.github.io/devtools-protocol/)**: Standardized JSON-RPC protocol to inspect, debug, and profile Chromium-based browsers. Powers automation frameworks like Puppeteer and Playwright.
+- 🦊 **[Firefox Remote Protocol / WebDriver BiDi](https://firefox-source-docs.mozilla.org/remote/)**: Next-generation bidirectional browser automation standard supported by Mozilla Firefox and Chrome.
+- 📱 **[Responsively App Core](https://github.com/responsively-org/responsively-app)**: Open-source responsive multi-viewport testing suite.
+
+---
+
+## 💖 Support & Community
+
+Thank you for visiting and supporting this project! If you find this developer browser resource list helpful, please consider:
+- 🌟 **Starring** the repository on GitHub to help others discover it.
+- 🍴 **Forking** it to keep a copy or contribute your own entries.
+- 📢 **Sharing** it with fellow frontend engineers, QA testers, and developers.
+- ☕ **Buying a coffee / Sponsoring**: Support ongoing maintenance via the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## 🤝 How to Contribute
+
+1. 🍴 **Fork** this repository.
+2. 📝 **Add/edit** entries in `README.md` following the formatted table layout.
+3. ⚡ Ensure descriptions are concise, factual, and include relevant links & star badges.
+4. 🚀 **Submit a Pull Request** with a clear explanation of your additions!
+
+---
+
+## ⚠️ Disclaimer
+
+- This repository is a **community-curated list** for educational and development workflow reference.
+- **Developer preview channels** (Canary, Dev, Nightly, Snapshot) may contain unreleased or unstable code. Do not use preview builds as your primary browser for critical financial or security operations.
+- All product names, logos, and trademarks belong to their respective owners.
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Web-Browser-Developer&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Web-Browser-Developer&type=date&legend=top-left)
+
+---
+
+<p align="center">
+  <b>Made with ❤️ for Web Developers, Frontend Engineers, &amp; Browser Tooling Enthusiasts.</b>
+</p>
